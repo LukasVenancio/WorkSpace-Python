@@ -1,0 +1,11 @@
+employeeName = input('What is the name of the employee?')
+presentSalary = int(input('What is the present salary of the {}? $'.format(employeeName)))
+increase = int(input('How much will the increase be (in percentage)? '))
+newSalary = presentSalary + (presentSalary * (increase / 100))
+
+print('-'*20)
+print('Employee name: {}'.format(employeeName))
+print('Present salary: ${}'.format(presentSalary))
+print('Increase: {}%'.format(increase))
+print('-'*20)
+print('New salary: ${}'.format(newSalary))
